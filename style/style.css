@@ -1,7 +1,8 @@
 .display {
     display: flex;
 }
-.hide{
+
+.hide {
     display: none;
 }
 
@@ -194,6 +195,127 @@
     color: orange;
 }
 
+/* story section styles */
+
+.story {
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: 900px;
+    border-radius: 16px;
+}
+
+.story-heading {
+    font-weight: bold;
+    font-size: 2.9rem;
+    padding-top: 20px;
+}
+
+#number {
+    background-image: linear-gradient(#FFFFFF, rgb(190, 171, 134));
+}
+
+.card-box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.card-box-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 16px;
+}
+
+.card-1 {
+    height: 630px;
+    background: white;
+    margin-left: 10px;
+    border-radius: 16px;
+}
+
+
+.card-title-1 {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: start;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card-sub-title-1 {
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: start;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card-2 {
+    background-color: white;
+    border-radius: 16px;
+}
+
+.card-3 {
+    background-color: white;
+    border-radius: 16px;
+}
+
+.card-4 {
+    background-color: white;
+    border-radius: 16px;
+}
+
+.card-5 {
+    background-color: white;
+    border-radius: 16px;
+}
+
+.btn-story {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 190px;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 80px;
+    border: none;
+}
+
+.card-btn-1 {
+    background-color: rgba(60, 216, 232, 1);
+    color: white;
+    border-radius: 48px;
+}
+
+.card-btn-2 {
+    background-color: #95B226;
+    color: white;
+    border-radius: 48px;
+}
+
+.card-btn-3 {
+    background-color: #5D58F0;
+    color: white;
+    border-radius: 48px;
+}
+
+.card-btn-4 {
+    background-color: #95B226;
+    color: white;
+    border-radius: 48px;
+}
+
+.card-btn-5 {
+    background-color: #95B226;
+    color: white;
+    border-radius: 48px;
+}
+
 
 
 
@@ -264,7 +386,8 @@
         font-size: 14px;
         margin-bottom: 20px;
     }
-    .main{
+
+    .main {
         max-width: 570px;
     }
 
@@ -273,7 +396,8 @@
         margin-bottom: -30px;
         justify-content: center;
     }
-    .box-title{
+
+    .box-title {
         font-size: 26px;
     }
 
@@ -285,5 +409,21 @@
     .icon,
     .card-1 {
         display: none;
+    }
+
+    .card-box-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        position: relative;
+        left: 10px;
+    }
+
+    .story {
+        max-width: 390px;
+    }
+
+    .card-2,
+    img {
+        width: 173px;
     }
 }
